@@ -1,0 +1,18 @@
+<header>
+  <img src="https://angular.io/resources/images/logos/standard/logo-nav.png" alt="Angular">
+  <h4 style="margin: 0;display: inline-block;vertical-align: sub;margin-left: 5px"> {{title}}
+  </h4>
+</header>
+<div class="container">
+  <ul class="nav nav-pills" style="margin-bottom: 20px;">
+    <li role="presentation" routerLinkActive="active">
+      <a routerLink="/dashboard">Dashboard</a></li>
+    <li role="presentation" routerLinkActive="active">
+      <a routerLink="/users">Users</a></li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>
+<footer style="position: fixed;bottom: 0;right: 0;left: 0;background: #e2e2e2" class="text-center">
+  <small style="font-family:Ubuntu"><b>&copy;</b> <span style="color: #2e6da4">Niral Munjariya</span> &lt;niral.munjariya@iwantunlimited.com&gt;
+  </small>
+</footer>
