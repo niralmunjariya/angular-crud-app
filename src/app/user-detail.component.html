@@ -2,7 +2,7 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       <div>
-        <button type="button" class="btn btn-xs btn-info" (click)="goBack()">< Back</button>&nbsp; View Details
+        <button type="button" class="btn btn-default" (click)="goBack()">Back</button>
       </div>
     </div>
     <div class="panel-body">
@@ -21,8 +21,7 @@
         </div>
         <div class="form-group">
           <label for="mobileNumber">Mobile Number</label>
-          <input readonly id="mobileNumber" [(ngModel)]="user.mobileNumber" name="mobile" type="text"
-                 class="form-control">
+          <input readonly id="mobileNumber" [(ngModel)]="user.mobileNumber" name="mobile" type="text" class="form-control">
         </div>
       </form>
     </div>
